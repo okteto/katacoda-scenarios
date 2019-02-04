@@ -1,5 +1,3 @@
-# Step 2: Deploy
-
 Clone the samples repo and move to the `react-multi-kubectl` folder:
 
 `git clone https://github.com/okteto/samples && cd samples/react-multi-kubectl`{{execute}}
@@ -14,4 +12,4 @@ After a minute or so, your application will be up and running. You can run the f
 
 It should take about a minute for both pods to reach the `running` status.
 
-You can now browse to the application using your web browser: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+You can now browse to the application using your web browser: https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/

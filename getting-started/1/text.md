@@ -1,5 +1,3 @@
-# Step 1: Install
-
 The first thing you need to do is [install the Okteto CLI](docs/getting-started/installation).
 
 Install syncthing

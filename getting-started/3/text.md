@@ -1,5 +1,3 @@
-# Step 3: Develop directly in the cluster
-
 On your terminal, go to the `movies-api` folder and start okteto:
 
 `cd movies-api && okteto up`{{execute}}
