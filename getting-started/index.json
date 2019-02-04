@@ -4,11 +4,6 @@
   "difficulty": "beginner",
   "time": "5-10 minutes",
   "details": {
-    "assets": {
-      "host01": [
-          {"file": "ig.yml", "target": "/root/ig.yml"}
-      ]
-    },
     "steps": [
       {
         "title": "Step 1: Install",
@@ -24,7 +19,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "foreground-init.sh",
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
