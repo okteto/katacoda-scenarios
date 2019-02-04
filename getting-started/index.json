@@ -1,0 +1,37 @@
+{
+  "title": "Getting started with Okteto",
+  "description": "This tutorial shows you how to get started with Okteto. It’ll take less than 5 minutes to have you developing a full stack application directly in your cluster.",
+  "difficulty": "beginner",
+  "time": "5-10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1: Install",
+        "text": "1/text.md",
+        "answer": "1/answer.md"
+      },
+      {
+        "title": "Step 2: Deploy",
+        "text": "2/text.md",
+        "answer": "2/answer.md"
+      },
+      {
+        "title": "Step 3: Develop directly in the cluster",
+        "text": "3/text.md",
+        "answer": "3/answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}
