@@ -4,19 +4,23 @@
   "difficulty": "beginner",
   "time": "5-10 minutes",
   "details": {
+    "assets": {
+      "host01": [
+          {"file": "ig.yml", "target": "/root/ig.yml"}
+      ]
+    },
     "steps": [
       {
         "title": "Step 1: Install",
-        "text": "1/text.md",
-        "courseData": "1/start.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2: Deploy",
-        "text": "2/text.md"
+        "text": "step2.md"
       },
       {
         "title": "Step 3: Develop directly in the cluster",
-        "text": "3/text.md"
+        "text": "step3.md"
       }
     ],
     "intro": {
@@ -31,6 +35,6 @@
   },
   "backend": {
     "imageid": "kubernetes",
-    "port": 80
+    "port": 30000
   }
 }
