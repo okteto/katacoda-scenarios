@@ -1,7 +1,27 @@
+
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: nginx-ingress
+---
+
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: nginx-config
+  namespace: nginx-ingress
+data:
+  redirect-to-https: "false"
+  ssl-redirect: "false"
+  server-name-hash-bucket-size: "128"
+  server-name-hash-max-size: "1024"
+---
+
 kind: Service
 apiVersion: v1
 metadata:
   name: nginx-ingress
+  namespace: nginx-ingress
 spec:
   type: NodePort
   selector:
@@ -17,6 +37,7 @@ kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
   name: nginx-ingress
+  namespace: nginx-ingress
 spec:
   replicas: 1
   template:
@@ -52,13 +73,13 @@ spec:
         args:
         - /nginx-ingress-controller
         - --default-backend-service=$(POD_NAMESPACE)/nginx-default-backend
-
 ---
 
 kind: Service
 apiVersion: v1
 metadata:
   name: nginx-default-backend
+  namespace: nginx-ingress
 spec:
   ports:
   - port: 80
@@ -71,6 +92,7 @@ kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
   name: nginx-default-backend
+  namespace: nginx-ingress
 spec:
   replicas: 1
   template:
