@@ -4,4 +4,4 @@
 
 Visit https://www.katacoda.com/ramiro-okteto to view the profile and interactive scenarios
 
-For examples, visit https://github.com/okteto/getting-started
+For examples, visit https://github.com/okteto/katacoda-scenarios/tree/master/getting-started
