@@ -7,18 +7,15 @@
     "steps": [
       {
         "title": "Step 1: Install",
-        "text": "1/text.md",
-        "answer": "1/answer.md"
+        "text": "1/text.md"
       },
       {
         "title": "Step 2: Deploy",
-        "text": "2/text.md",
-        "answer": "2/answer.md"
+        "text": "2/text.md"
       },
       {
         "title": "Step 3: Develop directly in the cluster",
-        "text": "3/text.md",
-        "answer": "3/answer.md"
+        "text": "3/text.md"
       }
     ],
     "intro": {
@@ -29,7 +26,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "kubernetes"
