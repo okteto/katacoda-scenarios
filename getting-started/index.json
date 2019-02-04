@@ -16,6 +16,10 @@
       {
         "title": "Step 3: Develop directly in the cluster",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4: Cleanup",
+        "text": "step4.md"
       }
     ],
     "intro": {

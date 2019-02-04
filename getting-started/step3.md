@@ -19,9 +19,7 @@ Okteto will detect that your file was changed and automatically synchronize your
  ...
 ```
 
-Go back to the voting app UI and refresh your browser's screen:
+Go back to the voting app UI and refresh your browser's screen.
 https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com/
 
-Notice how your changes to the application are already applied *without running `docker build` or `kubectl deploy`** 😎. This is one of the key benefits of writing applications directly in your cluster.  
-
-You can cancel the `okteto up` command by pressing `ctrl + c`{{execute interrupt}}. You can then run `okteto down`{{execute}} to restore your original deployment.
+Notice how your changes to the application are already applied *without running `docker build` or `kubectl deploy`** 😎. This is one of the key benefits of writing applications directly in your cluster.

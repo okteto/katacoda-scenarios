@@ -2,7 +2,7 @@ Clone the samples repo and move to the `python-kubectl` folder.
 
 `git clone https://github.com/okteto/samples && cd samples/python-kubectl`{{execute}}
 
-Deploy the `vote` app:
+Deploy the production version of the `vote` app.
 
 `kubectl apply -f manifests`{{execute}}
 
