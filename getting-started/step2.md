@@ -1,6 +1,6 @@
 Clone the samples repo and move to the `react-multi-kubectl` folder:
 
-`git clone https://github.com/okteto/samples && cd samples/react-multi-kubectl`{{execute}}
+`git clone https://github.com/okteto/samples && git checkout use-nginx-proxy && cd samples/react-multi-kubectl`{{execute}}
 
 Deploy the `movies` app:
 
