@@ -2,6 +2,9 @@ Clone the samples repository and move to the `python-kubectl` folder.
 
 `git clone https://github.com/okteto/samples && cd samples/python-kubectl`{{execute}}
 
+Verify that your kubernetes cluster is ready to run. 
+`kubectl get nodes`{{execute}}
+
 Deploy the production version of the `vote` app.
 
 `kubectl apply -f manifests`{{execute}}
