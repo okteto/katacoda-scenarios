@@ -8,7 +8,7 @@
       {
         "title": "Step 1: Install",
         "text": "step1.md",
-        "courseData": "env-init.sh"
+        "code": "env-init.sh"
       },
       {
         "title": "Step 2: Deploy",
