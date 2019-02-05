@@ -22,4 +22,11 @@ Okteto will detect that your file was changed and automatically synchronize your
 Go back to the voting app UI and refresh your browser's screen.
 https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com/
 
-Notice how your changes to the application are already applied **without running docker build or kubectl deploy** 😎. This is one of the key benefits of writing applications directly in your cluster.
+Notice how your changes to the application are already applied without running docker build or kubectl deploy 😎. 
+
+### Benefits of developing with Okteto
+
+- Simplifies Kubernetes development by **minimizing your local dev environment setup**.
+- **Rapidly iterate and debug directly in Kubernetes**, instead of building containers and redeploying them.
+- Reduce integration efforts by having your code **already integrated in a production-like environment**.
+- **Share dev environments** to enable a new level of collaboration between developers.
