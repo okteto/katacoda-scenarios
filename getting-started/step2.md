@@ -1,4 +1,4 @@
-Clone the samples repo and move to the `python-kubectl` folder. 
+Clone the samples repository and move to the `python-kubectl` folder. 
 
 `git clone https://github.com/okteto/samples && cd samples/python-kubectl`{{execute}}
 
