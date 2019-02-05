@@ -23,9 +23,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "foreground-init.sh",
-      "courseData": "env-init.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
