@@ -8,23 +8,27 @@
       {
         "title": "Step 1: Install",
         "text": "step1.md",
-        "code": "env-init.sh"
+        "code": "clear.sh"
       },
       {
         "title": "Step 2: Deploy",
-        "text": "step2.md"
+        "text": "step2.md",
+        "code": "clear.sh"
       },
       {
         "title": "Step 3: Develop directly in the cluster",
-        "text": "step3.md"
+        "text": "step3.md",
+        "code": "clear.sh"
       },
       {
         "title": "Step 4: Cleanup",
-        "text": "step4.md"
+        "text": "step4.md",
+        "code": "clear.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -35,6 +39,6 @@
   },
   "backend": {
     "imageid": "kubernetes",
-    "port": 30000
+    "port": 8080
   }
 }
